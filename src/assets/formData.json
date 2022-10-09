@@ -1,0 +1,246 @@
+{
+  "parentField": [
+    {
+      "type": "dropdown",
+      "name": "select_type",
+      "label": "Select Type",
+      "value": "",
+      "required": false,
+      "options": [
+        {
+          "key": "personalInfo",
+          "label": "Personal information"
+        },
+        {
+          "key": "productInfoForm",
+          "label": "Product information"
+        },
+        {
+          "key": "sampleForm",
+          "label": "Sample Form"
+        }
+      ]
+    }
+  ],
+  "personalInfo": [
+    {
+      "type": "text",
+      "name": "firstName",
+      "label": "First Name",
+      "value": "",
+      "required": true,
+      "pattern": "/^[a-zA-Z0-9 ]*$/",
+      "error": "Expected only alpha numeric value"
+    },
+    {
+      "type": "text",
+      "name": "lastName",
+      "label": "Last Name",
+      "value": "",
+      "required": true,
+      "pattern": "/^[a-zA-Z0-9 ]*$/",
+      "error": "Expected only alpha numeric value"
+    },
+    {
+      "type": "number",
+      "name": "phone",
+      "label": "Phone Number",
+      "value": "",
+      "required": true,
+      "pattern": "/^[a-zA-Z0-9( )-]*$/",
+      "error": "Expected only numeric value"
+    },
+    {
+      "type": "text",
+      "name": "email",
+      "label": "Email",
+      "value": "",
+      "required": true,
+      "pattern": "/^[a-zA-Z0-9 ]*$/",
+      "error": "Expected valid format."
+    },
+    {
+      "type": "file",
+      "name": "picture",
+      "label": "Picture",
+      "required": true,
+      "onUpload": ""
+    },
+    {
+      "type": "dropdown",
+      "name": "country",
+      "label": "Country",
+      "value": "in",
+      "required": true,
+      "options": [
+        {
+          "key": "in",
+          "label": "India"
+        },
+        {
+          "key": "us",
+          "label": "USA"
+        }
+      ]
+    },
+    {
+      "type": "radio",
+      "name": "gender",
+      "label": "Gender",
+      "value": "in",
+      "required": true,
+      "options": [
+        {
+          "key": "m",
+          "label": "Male"
+        },
+        {
+          "key": "f",
+          "label": "Female"
+        }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "name": "hobby",
+      "label": "Hobby",
+      "required": true,
+      "options": [
+        {
+          "key": "f",
+          "label": "Fishing"
+        },
+        {
+          "key": "c",
+          "label": "Cooking"
+        }
+      ]
+    }
+  ],
+  "productInfoForm": [
+    {
+      "type": "text",
+      "name": "Category",
+      "label": "Category",
+      "value": "",
+      "required": true,
+      "pattern": "/^[a-zA-Z0-9 ]*$/",
+      "error": "Expected only alpha numeric value"
+    },
+    {
+      "type": "dropdown",
+      "name": "color",
+      "label": "Color",
+      "value": "in",
+      "required": true,
+      "options": [
+        {
+          "key": "0",
+          "label": "Green"
+        },
+        {
+          "key": "1",
+          "label": "Blue"
+        },
+        {
+          "key": "1",
+          "label": "Pink"
+        },
+        {
+          "key": "1",
+          "label": "Red"
+        },
+        {
+          "key": "1",
+          "label": "White"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "picture",
+      "label": "Picture",
+      "required": true,
+      "onUpload": ""
+    },
+    {
+      "type": "radio",
+      "name": "Option",
+      "label": "Option",
+      "value": "in",
+      "required": true,
+      "options": [
+        {
+          "key": "1",
+          "label": "Option 1"
+        },
+        {
+          "key": "2",
+          "label": "Option 2"
+        },
+        {
+          "key": "3",
+          "label": "Option 3"
+        },
+        {
+          "key": "4",
+          "label": "Option 4"
+        }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "name": "type",
+      "label": "Type 2",
+      "required": true,
+      "options": [
+        {
+          "key": "1",
+          "label": "Type 1"
+        },
+        {
+          "key": "2",
+          "label": "Type 2"
+        }
+      ]
+    }
+  ],
+  "sampleForm": [
+    {
+      "type": "text",
+      "name": "inputField",
+      "label": "Input field 1",
+      "value": "",
+      "required": true,
+      "pattern": "/^[a-zA-Z0-9 ]*$/",
+      "error": "Expected only alpha numeric value"
+    },
+    {
+      "type": "text",
+      "name": "inputField",
+      "label": "Input field 2",
+      "value": "",
+      "required": true,
+      "pattern": "/^[a-zA-Z0-9 ]*$/",
+      "error": "Expected only alpha numeric value"
+    },
+    {
+      "type": "checkbox",
+      "name": "type",
+      "label": "Type",
+      "required": true,
+      "options": [
+        {
+          "key": "1",
+          "label": "Type 1"
+        },
+        {
+          "key": "2",
+          "label": "Type 2"
+        }
+      ]
+    }
+  ],
+  "submitBtnLabel": "Submit",
+  "saveBtnLabel": "Save"
+}
