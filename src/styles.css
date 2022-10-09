@@ -141,3 +141,7 @@ body {
     max-width: 1240px;
 }
 }
+
+.pointer-hand {
+  cursor: pointer;
+}

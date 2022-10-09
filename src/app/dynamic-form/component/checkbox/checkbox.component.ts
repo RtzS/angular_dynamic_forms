@@ -7,13 +7,14 @@ import { FormGroup } from "@angular/forms";
     <div [formGroup]="form">
       <div [formGroupName]="field.name">
         <div *ngFor="let opt of field.options" class="form-check form-check">
-          <label class="form-check-label">
+          <label class="form-check-label pointer-hand" [attr.for]="opt.label">
             <input
               [formControlName]="opt.key"
               class="form-check-input"
               type="checkbox"
               id="inlineCheckbox1"
-              value="option1"
+              [value]="opt.label"
+              [id]="opt.label"
             />
             {{ opt.label }}</label
           >

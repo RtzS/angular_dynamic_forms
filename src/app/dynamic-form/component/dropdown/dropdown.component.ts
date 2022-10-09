@@ -10,7 +10,11 @@ import { FormGroup } from "@angular/forms";
         [id]="field.name"
         [formControlName]="field.name"
       >
-        <option *ngFor="let opt of field.options" [value]="opt.key">
+        <option
+          class="pointer-hand"
+          *ngFor="let opt of field.options"
+          [value]="opt.key"
+        >
           {{ opt.label }}
         </option>
       </select>
