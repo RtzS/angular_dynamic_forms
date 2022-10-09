@@ -29,7 +29,7 @@
       "label": "First Name",
       "value": "",
       "required": true,
-      "pattern": "/^[a-zA-Z0-9 ]*$/",
+      "pattern": "/^[a-zA-Z0-9]*$/",
       "error": "Expected only alpha numeric value"
     },
     {
@@ -38,15 +38,15 @@
       "label": "Last Name",
       "value": "",
       "required": true,
-      "pattern": "/^[a-zA-Z0-9 ]*$/",
+      "pattern": "/^[a-zA-Z0-9]*$/",
       "error": "Expected only alpha numeric value"
     },
     {
-      "type": "number",
+      "type": "text",
       "name": "phone",
       "label": "Phone Number",
       "value": "",
-      "required": true,
+      "required": false,
       "pattern": "/^[a-zA-Z0-9( )-]*$/",
       "error": "Expected only numeric value"
     },
@@ -55,8 +55,8 @@
       "name": "email",
       "label": "Email",
       "value": "",
-      "required": true,
-      "pattern": "/^[a-zA-Z0-9 ]*$/",
+      "required": false,
+      "pattern": "/^[a-zA-Z0-9]*$/",
       "error": "Expected valid format."
     },
     {
@@ -124,7 +124,7 @@
       "label": "Category",
       "value": "",
       "required": true,
-      "pattern": "/^[a-zA-Z0-9 ]*$/",
+      "pattern": "/^[a-zA-Z0-9]*$/",
       "error": "Expected only alpha numeric value"
     },
     {
@@ -212,7 +212,7 @@
       "label": "Input field 1",
       "value": "",
       "required": true,
-      "pattern": "/^[a-zA-Z0-9 ]*$/",
+      "pattern": "/^[a-zA-Z0-9]*$/",
       "error": "Expected only alpha numeric value"
     },
     {
@@ -221,7 +221,7 @@
       "label": "Input field 2",
       "value": "",
       "required": true,
-      "pattern": "/^[a-zA-Z0-9 ]*$/",
+      "pattern": "/^[a-zA-Z0-9]*$/",
       "error": "Expected only alpha numeric value"
     },
     {
